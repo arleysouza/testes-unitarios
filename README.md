@@ -7,7 +7,7 @@ O projeto aborda desde conceitos introdutórios sobre testes até a aplicação 
 
 ### Objetivos
 
-Durante o estudo e execução do código, são abordados os seguintes pontos principais:
+Durante o estudo e execução do código, são abordados os seguintes pontos:
 
 1. Conceitos de testes unitários;
 2. Configuração e uso do Jest - instalação, execução e principais funcionalidades;
@@ -53,14 +53,18 @@ cd server
 npm i
 ```
 
+
 2. Configuração opcional para execução com MongoDB real
+
 Caso queira executar a API com um banco persistente:
 - Crie um banco MongoDB local ou utilize uma instância remota.
+
 
 3. Executando o servidor em modo de desenvolvimento:
 ```bash
 npm run dev
 ```
+
 
 4. Executando os testes
 O projeto utiliza o `mongodb-memory-server`, não sendo necessário instalar o MongoDB para rodar os testes.
